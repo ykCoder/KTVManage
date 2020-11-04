@@ -8,27 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FCFD9A062552879C000DF314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD9A052552879C000DF314 /* AppDelegate.m */; };
-		FCFD9A092552879C000DF314 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD9A082552879C000DF314 /* SceneDelegate.m */; };
-		FCFD9A0C2552879C000DF314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD9A0B2552879C000DF314 /* ViewController.m */; };
-		FCFD9A0F2552879C000DF314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD9A0D2552879C000DF314 /* Main.storyboard */; };
 		FCFD9A112552879D000DF314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD9A102552879D000DF314 /* Assets.xcassets */; };
 		FCFD9A142552879D000DF314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD9A122552879D000DF314 /* LaunchScreen.storyboard */; };
 		FCFD9A172552879E000DF314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD9A162552879E000DF314 /* main.m */; };
+		FCFD9A22255288D9000DF314 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD9A21255288D9000DF314 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FCFD9A012552879C000DF314 /* KTVManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTVManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFD9A042552879C000DF314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCFD9A052552879C000DF314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCFD9A072552879C000DF314 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FCFD9A082552879C000DF314 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FCFD9A0A2552879C000DF314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCFD9A0B2552879C000DF314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FCFD9A0E2552879C000DF314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCFD9A102552879D000DF314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCFD9A132552879D000DF314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCFD9A152552879E000DF314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCFD9A162552879E000DF314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFD9A20255288D9000DF314 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FCFD9A21255288D9000DF314 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +58,12 @@
 			children = (
 				FCFD9A042552879C000DF314 /* AppDelegate.h */,
 				FCFD9A052552879C000DF314 /* AppDelegate.m */,
-				FCFD9A072552879C000DF314 /* SceneDelegate.h */,
-				FCFD9A082552879C000DF314 /* SceneDelegate.m */,
-				FCFD9A0A2552879C000DF314 /* ViewController.h */,
-				FCFD9A0B2552879C000DF314 /* ViewController.m */,
-				FCFD9A0D2552879C000DF314 /* Main.storyboard */,
 				FCFD9A102552879D000DF314 /* Assets.xcassets */,
 				FCFD9A122552879D000DF314 /* LaunchScreen.storyboard */,
 				FCFD9A152552879E000DF314 /* Info.plist */,
 				FCFD9A162552879E000DF314 /* main.m */,
+				FCFD9A20255288D9000DF314 /* RootViewController.h */,
+				FCFD9A21255288D9000DF314 /* RootViewController.m */,
 			);
 			path = KTVManage;
 			sourceTree = "<group>";
@@ -134,7 +126,6 @@
 			files = (
 				FCFD9A142552879D000DF314 /* LaunchScreen.storyboard in Resources */,
 				FCFD9A112552879D000DF314 /* Assets.xcassets in Resources */,
-				FCFD9A0F2552879C000DF314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +136,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFD9A0C2552879C000DF314 /* ViewController.m in Sources */,
 				FCFD9A062552879C000DF314 /* AppDelegate.m in Sources */,
 				FCFD9A172552879E000DF314 /* main.m in Sources */,
-				FCFD9A092552879C000DF314 /* SceneDelegate.m in Sources */,
+				FCFD9A22255288D9000DF314 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCFD9A0D2552879C000DF314 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCFD9A0E2552879C000DF314 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCFD9A122552879D000DF314 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,13 +276,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
 				INFOPLIST_FILE = KTVManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yk.KTVManage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,13 +295,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
 				INFOPLIST_FILE = KTVManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yk.KTVManage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
